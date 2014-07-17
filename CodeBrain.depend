@@ -20,3 +20,20 @@
 1405490103 source:q:\projects\distancearm\codebrain\braintests.cpp
 	"BrainTests.h"
 
+1405490241 source:q:\projects\codebrain\braintests.cpp
+	"BrainTests.h"
+
+1405467803 q:\projects\codebrain\braintests.h
+	"Neuron.h"
+	<iostream>
+	<assert.h>
+
+1405489806 q:\projects\codebrain\neuron.h
+	<vector>
+	<iostream>
+
+1405467261 source:q:\projects\codebrain\main.cpp
+	<iostream>
+	"Neuron.h"
+	"BrainTests.h"
+

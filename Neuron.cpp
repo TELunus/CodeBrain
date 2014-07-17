@@ -23,7 +23,7 @@ void Neuron::Update1()
 	//double avg = 0;
 	for(unsigned int i = 0;i<m_connections.size();i++)
 	{
-		sum += m_connections.at(i).m_weight;
+		sum += m_connections.at(i).m_weight*m_connections.at(i).m_source.getValue();
 		//avg += m_connections.at(i).m_weight*m_connections.at(i).m_source.getValue();
 	}
 	//avg/=sum;
