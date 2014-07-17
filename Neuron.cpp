@@ -17,7 +17,7 @@ double Neuron::Activation(double state) const
 	return Logistic(state*b);
 }
 
-void Neuron::Update1()
+void Neuron::UpdateState()
 {
 	double sum = 0;
 	//double avg = 0;
@@ -30,7 +30,7 @@ void Neuron::Update1()
 	m_state = Activation(sum);
 }
 
-void Neuron::Update2()
+void Neuron::UpdateOutput()
 {
 	m_output = m_state;
 }

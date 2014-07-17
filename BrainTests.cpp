@@ -12,7 +12,7 @@ void BrainTests()
 {
     Neuron testNeuron;
     testNeuron.setValue(0.5);
-    testNeuron.Update2();
+    testNeuron.UpdateOutput();
     //std::cout<<testNeuron.getValue();
     assert(dequal(testNeuron.getValue() , 0.5));
 }

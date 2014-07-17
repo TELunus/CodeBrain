@@ -15,8 +15,8 @@ public:
 		double m_weight;
 	};
 	Neuron();
-	void Update1();
-	void Update2();
+	void UpdateState();
+	void UpdateOutput();
 	double getValue() const;
 	void setValue(double);
 	void addConnection(Neuron& source);
