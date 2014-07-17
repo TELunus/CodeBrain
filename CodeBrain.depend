@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1405467261 source:q:\projects\distancearm\codebrain\main.cpp
+	<iostream>
+	"Neuron.h"
+	"BrainTests.h"
+
+1405489806 q:\projects\distancearm\codebrain\neuron.h
+	<vector>
+	<iostream>
+
+1405490071 source:q:\projects\distancearm\codebrain\neuron.cpp
+	"Neuron.h"
+	<math.h>
+
+1405467803 q:\projects\distancearm\codebrain\braintests.h
+	"Neuron.h"
+	<iostream>
+	<assert.h>
+
+1405490103 source:q:\projects\distancearm\codebrain\braintests.cpp
+	"BrainTests.h"
+
