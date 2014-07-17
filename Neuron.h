@@ -2,6 +2,8 @@
 #define NEURON_H
 
 #include <vector>
+#include <string>
+#include <sstream>
 #ifdef NERON_PRINT
 #include <iostream>
 #endif // NERON_PRINT
@@ -20,6 +22,7 @@ public:
 	double getValue() const;
 	void setValue(double);
 	void addConnection(Neuron& source);
+	std::string print()const;
 private:
 	std::vector<connection> m_connections;
 	double m_state;

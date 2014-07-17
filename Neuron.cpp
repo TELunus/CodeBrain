@@ -50,3 +50,15 @@ double Logistic(double x)
 {
 	return 1.0/(1.0 + exp(-x));
 }
+
+std::string Neuron::print()const
+{
+	std::stringstream builder;
+	builder<<this<<':'<<std::endl;
+	for(unsigned long i = 0;i<m_connections.size();i++)
+	{
+		builder<<&(m_connections.at(i).m_source)<<", ";
+	}
+	builder<<std::endl;
+	return builder.str();
+}
