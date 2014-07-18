@@ -42,6 +42,18 @@ Brain::Brain(std::string initializationString):m_greyMatter()
 
 }
 
+void Brain::Update()
+{
+	for(unsigned long i = 0;i<m_greyMatter.size();i++)
+	{
+		m_greyMatter.at(i).UpdateState();
+	}
+	for(unsigned long i = 0;i<m_greyMatter.size();i++)
+	{
+		m_greyMatter.at(i).UpdateOutput();
+	}
+}
+
 std::string Brain::print()const
 {
 	std::string result = "";
