@@ -1,6 +1,7 @@
 #ifndef BRAIN_TESTS_H
 #define BRAIN_TESTS_H
 #include "Neuron.h"
+#include "Brain.h"
 #include <iostream>
 #include <assert.h>
 
